@@ -7,7 +7,7 @@ export default [
   },
 
   {
-    path: '/home',
+    path: '/',
     component: () => import('../views/pages/home/index'),
     redirect: '/home',
     children:[
