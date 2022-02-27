@@ -1,0 +1,110 @@
+// 
+// authentication.scss
+//
+
+.auth-body-bg{
+    background-color: $body-bg;
+}
+
+.authentication-bg{
+    // background-image: url("../images/man-laptop.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    .bg-overlay{
+        background-color: #292626;
+    }
+
+    @media (max-width: 991px) {
+            display: none;
+    }
+}
+
+.authentication-page-content{
+    // height: 100vh;
+    display: flex;
+}
+
+.auth-form-group-custom{
+    position: relative;
+    .form-control{
+        height: 60px;
+        padding-top: 28px;
+        padding-left: 60px;
+    }
+
+    label{
+        position: absolute;
+        top: 7px;
+        left: 60px;
+    }
+
+    .auti-custom-input-icon{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 19px;
+        font-size: 24px;
+        color: $primary;
+    }
+}
+
+
+
+
+
+// authentication home icon
+.home-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 9;
+}
+
+.login-wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+}
+// .login-card{
+//     box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+//     border-radius: 0.2rem;
+//     background-color: white;
+// }
+
+// .login-header {
+//     display: flex;
+//     padding: 1rem;
+//     align-items: center;
+//     background: #f8dada;
+//     border-top-right-radius: 5px;
+//     border-top-left-radius: 5px;
+//     justify-content: space-between;
+//     position: relative;
+//     padding-bottom: 1.5rem;
+//     .login-header-text {
+//         color: $primary;
+//         font-size: 13px;
+//         h4{
+//             color: $primary;
+//         }
+//     }
+//     .sm-logo{
+//         position: absolute;
+//         width: 72px;
+//         height: 72px;
+//         background: #f1eeee;
+//         bottom: -45px;
+//         border-radius: 50%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         img{
+//             width: 34px;
+//         }
+//     }
+    
+// }
+// .login-body{
+//     padding: 1.5rem;
+//     margin-top: 2rem;
+// }

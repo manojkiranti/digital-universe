@@ -1,0 +1,36 @@
+//
+// Select 2
+//
+
+
+.filter-wrap{
+  .multiselect__tags{
+    font-size: 11px;
+  }
+  .multiselect{
+    min-height: 28px;
+  }
+  .multiselect__select{
+    height: 26px;
+  }
+  .multiselect__placeholder{
+    margin-bottom:4px;
+  }
+  .multiselect__tags{
+    padding: 4px 40px 0 8px;
+    min-height: 28px;
+  }
+  .multiselect__input, .multiselect__single{
+    margin-bottom:3px;
+    font-size: 10px;
+  }
+  .multiselect__content{
+    font-size: 10px;
+  }
+  .multiselect__option:after{
+    line-height: 40px;
+    padding-right: 12px;
+    padding-left: 10px;
+    font-size: 10px;
+  }
+}

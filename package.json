@@ -1,0 +1,58 @@
+{
+  "name": "digital-universe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/pro-light-svg-icons": "^5.15.4",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "apexcharts": "^3.22.2",
+    "axios": "^0.21.3",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.7.0",
+    "vue": "^2.6.12",
+    "vue-apexcharts": "^1.6.0",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.9",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-var": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

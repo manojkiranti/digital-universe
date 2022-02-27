@@ -1,0 +1,464 @@
+.digital-universe-home{
+    min-height: 100vh;
+    // background: #eef0f8;
+    background: #eff1f5;
+    padding-bottom: 55px;
+    .products-wrapper {
+        background: white;
+        padding-top: 20px;
+        margin-bottom: 16px;
+      }
+    .product-content{
+        // box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+        // background:#fff;
+        // border-radius: 10px;
+        // padding: 10px 10px 0;
+        text-align: center;
+    }
+    .products-list{
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    .products-list li{
+        max-width: 25%;
+        padding-left:4px;
+        padding-right: 4px;
+        margin-bottom: 12px;
+    }
+    .product-content .floating-text .clean-text{
+        min-height: 27px;
+        font-size: 12px;
+    }
+    .product-content .product-icon{
+        font-size: 22px;
+    }
+  .products-list li{
+      .service-icon{
+  
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+        // line-height: 50px;
+        background:white;
+      }
+            .floating-circle-box{
+                
+                display: inline-block;
+                // width: 50px;
+                // height: 50px;
+                border-radius: 100%;
+                // line-height: 50px;
+                color: white;
+                
+            }
+            .product-icon{
+                font-size:20px!important;
+                color:#fff;
+            }
+        
+    }
+}
+#home-header{
+    .menu{
+        background: transparent;
+        box-shadow: none;
+    }
+    .menu__mobile-button {
+        position: absolute;
+        left: 22px;
+        top: -14px;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+         
+            background: white;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            border-radius: 12px;
+            justify-content: center;
+            align-items: center;
+            .menu-icon{
+                color: rebeccapurple;
+            }
+      }
+      .logo-wrap .logo-text{
+          font-size: 18px;
+      }
+      .menu .menu__item{
+          min-width: auto;
+          text-align: center;
+          padding-right: 10px;
+      }
+      .user-login{
+          text-align: center;
+          .user-icon{
+            color: rebeccapurple;
+            background: white;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            border-radius: 12px;
+            justify-content: center;
+            align-items: center;
+          }
+      }
+      .menu__mobile-button .menu-icon{
+          font-size: 16px;
+      }
+      span.logo-wrap .logo-text .logo-tt{
+          color: black;
+      }
+      span.logo-wrap .menu__logo-img {
+          max-width:52px;
+      }
+}
+.home-body-main {
+    padding-top: 82px;
+  }
+
+  .bottom-nav{
+    background: #fff;
+    color: $primary;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0px -2px 5px rgb(0 0 0 / 10%);
+    .nav{
+        align-items: center;
+        max-width: 480px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        list-style: none;
+        .nav-item{
+            height:60px;
+            flex-basis: 0;
+            flex-grow: 1;
+            text-align: center;
+            .nav-link{
+                text-align: center;
+                background: transparent;
+                color: #888888;
+                align-self: center;
+                height: 100%;
+                line-height: 44px;
+                position: relative;
+                transition: all 0.3s ease;
+                >span{
+                    line-height: 20px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .nav-icon{
+                    font-size: 18px;
+                }
+                .nav-text{
+                    font-size: 10px;
+                    line-height: 18px;
+                    vertical-align: middle;
+                    display: block;
+                }
+                
+                &:before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    height: 2px;
+                    background: $primary;
+                    transform: scaleX(0);
+                }
+                &.router-link-active{
+                    color: $primary; 
+                    &:before{
+                        transform: scaleX(1);
+                        transform-origin: left;
+                    }                   
+                }
+            }
+        }
+    }
+  }
+
+  .carousel-wrap {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .carousel-content {
+    background: #c90060;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    height: 200px;
+    &.bg-pink{
+        background: #ca09d0;
+    }
+    &.bg-dark-pink{
+        background: #693f71;
+    }
+    &.bg-dark-green{
+        background: #5cd591;
+    }
+  }
+  .slide-text {
+    color: white;
+    width: 40%;
+    max-width:40%;
+
+    margin-top: 30px;
+    h6{
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 1rem;
+    }
+  }
+  .slide-img {
+    position: absolute;
+    bottom: 14%;
+    height: 76%;
+    right: 3%;
+    width: 51%;
+    img{
+        height:100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+  }
+  .dots {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+     li{
+         list-style: none;
+         display:inline-block;
+         margin: 0 10px;
+         span{
+             width: 7px;
+             height: 7px;
+             border-radius: 100%;
+             background-color: #fff;
+             display: inline-block;
+             position: relative;
+         }
+         &.active {
+             span{
+                background-color: #ffaf00;
+                &:before {
+                    position: absolute;
+                    width: calc(100% + 8px);
+                    height: calc(100% + 8px);
+                    z-index: 1;
+                    content: "";
+                    border: 2px solid #ffaf00;
+                    left: -4px;
+                    top: -4px;
+                    border-radius: 50%;
+                }
+             }
+         }
+     }
+  }
+
+  .section-wrapper {
+    padding: 1rem 0;
+  }
+  .offers-content{      
+    padding: 0 5px;
+  }
+  .offer-card{
+      position: relative;
+      width: 100%;
+      .feature-img{
+          border-radius: 20px;
+          overflow: hidden;
+          img{
+            border-radius: 20px;
+            height: 192px;
+            object-fit: cover;
+            width: 100%;
+            
+          }
+          &.north-face{
+              background: #da2427;
+              img{
+                  float: right;
+                  width: 53%;
+              }
+          }
+      }
+      .offer-content{
+        background: white;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+        width: 41%;
+        border-radius: 20px;
+        height: 80%;
+        text-align: center;
+        padding: 7px 10px;
+        .graph-wrap{
+            display: inline-block;
+            width: 72px;
+            height: 72px;
+            line-height: 72px;
+            border-radius: 100%;
+            box-shadow: 0 3px 10px rgb(247 53 99 / 20%);
+        }
+      }
+      .chart-header {
+        position: absolute;
+        top: 52%;
+        line-height: 1;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        .percent {
+            font-size: 70%;
+            display: inline-block;
+            margin-left: 2px;
+          }
+      }
+      .offer-text{
+          h6{
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: 400;
+          }
+      }
+      .location {
+        margin: 0;
+        color: #999;
+        font-size: 11px;
+        line-height: 1.2;
+        svg{
+            color: $primary;
+        }
+      }
+  }
+
+  .digital-universe-home{
+    .slick-dots li button::before{
+        font-size: 8px;
+        color: #fff;
+        opacity: 1;
+        line-height: 18px;
+        width: 18px;
+        height: 18px;
+    }
+    .slick-dots li button{
+        width: 18px;
+        height: 18px;
+    }
+    .slick-dots{
+        bottom: 2px;
+    }
+    .slick-dots li.slick-active button::before{
+        opacity: 1;
+        color: #ffaf00;
+        border: 2px solid #ffaf00;
+        border-radius: 100%;
+    }
+  }
+  .iframe-wrapper {
+    width: 100%;
+    height: calc(100vh - 165px);
+    overflow: hidden;
+    background: white;
+    box-shadow:0 2px 4px rgb(0 0 0 / 8%);
+
+    iframe{
+        // margin-top: -238px;
+    }
+    &.no-margin{
+        iframe{
+            margin-top: 0;
+        }
+    }
+  }
+  
+    .header-wrapper{
+        display: none;
+    }
+  
+  #home-header{
+    .sidemenu__btn {
+        background: no-repeat;
+        border: none;
+        float: right;
+        padding: 10px;
+        font-size: 20px;
+      }
+  } 
+  .nav-mobile{
+      .nav-link{
+          color: #888888;
+          &.router-link-exact-active{
+              color: $primary;
+          }
+      }
+      .nav-icon {
+        margin-right: 10px;
+      }
+  }
+    
+  .ribbon {
+    font-size: 16px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+   
+    width: 50%;
+       
+    position: relative;
+    background: #ba89b6;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em; /* Adjust to suit */
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+   }
+   .ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #986794;
+    z-index: -1;
+   }
+   .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+   }
+   .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+   }
+   .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #804f7c transparent transparent transparent;
+    bottom: -1em;
+   }
+   .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+   }
+   .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+   }
