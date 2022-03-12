@@ -93,32 +93,12 @@ export default {
         // }
       },
       products: [
-        // {
-        //   id: 1,
-        //   title: "Bank Guarantee",
-        //   code: "on_bg",
-        //   link: "/bank-gurantee/apply",
-        //   icon: "envelope-open",
-        //   active: true,
-        //   color: "#f73563",
-        //   shadow: "0 3px 10px rgba(247, 53, 99, 0.2)",
-        // },
-        // {
-        //   id: 2,
-        //   title: "TT/RTGS",
-        //   code: "tt_rtgs",
-        //   link: "/tt-rtgs/apply",
-        //   icon: "money-check-edit",
-        //   active: true,
-        //   color: "#6236FF",
-        //   shadow: "0 3px 10px rgb(98 54 255 / 25%)",
-        // },
 
         {
           id: 3,
           title: "Account Opening",
           code: "on_ac",
-          link: "https://onlineaccount.nicasiabank.com/",
+          link: "/digital-service/online-account",
           icon: "desktop-alt",
           active: true,
           color: "#00dfa3",
@@ -128,7 +108,7 @@ export default {
           id: 4,
           title: "Demat",
           code: "on_demat",
-          link: "https://www.nicasiabank.com/demat-request",
+          link: "/digital-service/demat",
           icon: "file-signature",
           active: true,
           color: "#FFB400",
@@ -148,7 +128,7 @@ export default {
           id: 6,
           title: "Fixed Deposit",
           code: "fixed_deposit",
-          link: "https://onlineaccount.nicasiabank.com/account/opening/fixed-deposit/sarbashrestha-muddati-khata",
+          link: "/digital-service/fixed-deposit",
           icon: "gift-card",
           offer: "Upto 12% Interest",
           active: true,
@@ -159,7 +139,7 @@ export default {
           id: 7,
           title: "Mero Share & CRN",
           code: "crn",
-          link: "https://meroshare.nicasiabank.com/capital",
+          link: "/digital-service/mero-share",
           icon: "ballot-check",
           active: true,
           color: "rgb(225, 110, 84)",
@@ -169,7 +149,7 @@ export default {
           id: 8,
           title: "Apply Loan",
           code: "apply_loan",
-          link: "https://loanapplication.nicasiabank.com/#step-1",
+          link: "/digital-service/loan",
           icon: "landmark",
           active: true,
           color: '#f73563',
@@ -179,7 +159,7 @@ export default {
           id: 9,
           title: "Insta Buy",
           code: "insta_buy",
-          link: "https://instabuy.nicasiabank.com/insta-pay",
+          link: "/digital-service/insta-buy",
           icon: "calendar-check",
           active: true,
           color: 'rgb(17, 17, 17)',
@@ -189,7 +169,7 @@ export default {
           id: 10,
           title: "Apply Share",
           code: "share",
-          link: "https://meroshare.nicasiabank.com/asba",
+          link: "/digital-service/asba",
           icon: "bullseye-pointer",
           active: true,
           color: '#f73563',
@@ -199,7 +179,7 @@ export default {
           id: 10,
           title: "Be a Merchant",
           code: "merchat",
-          link: "https://features.nicasiabank.com/merchant-acquisition",
+          link: "/digital-service/merchant",
           icon: "briefcase",
           active: true,
           color: "rgb(247, 53, 208)",
@@ -228,7 +208,7 @@ export default {
       }
     },
     applyNow(val) {
-      window.open(val);
+     this.$router.push(val)
     },
     viewDetail(index) {
       this.selectedProduct = this.products[index];

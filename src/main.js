@@ -7,16 +7,17 @@ import VueApexCharts from 'vue-apexcharts'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserTie, faLock , faPhoneAlt,  faTh,faFileImage, faChevronDown, faBadgePercent,
   faRegistered,  faUserCheck,faUser,  faBars, faSearch,faUnlockAlt, faUniversity, faTimes,
-  faHome, faHeadset,      faCog, faMapMarkerAlt  } 
+  faHome, faHeadset, faCog, faMapMarkerAlt, faLongArrowLeft } 
       from '@fortawesome/pro-light-svg-icons'
 import {  faExpandWide, faScrubber ,faIdCard, faGiftCard,faEnvelope,faEnvelopeOpen,faLandmark, faBriefcase, faBallotCheck, faDumpster,
    faMoneyCheckEdit, faDesktopAlt, faFileSignature, faCreditCard, faCalendarCheck, faMobileAlt, faUnlock, faKey, faBan, faUsdSquare,
-    faBullseyePointer} from '@fortawesome/pro-solid-svg-icons'
+    faBullseyePointer, } from '@fortawesome/pro-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faCog, faBullseyePointer, faIdCard, faGiftCard, faCreditCard,faUserTie,faDesktopAlt, faLock,faUser, faHome, faPhoneAlt, faEnvelope,faEnvelopeOpen, faRegistered, faChevronDown,faUnlockAlt,
+library.add(faCog, faBullseyePointer, faIdCard, faGiftCard, faCreditCard,faUserTie,faDesktopAlt, faLock,faUser, faHome, faPhoneAlt,
+  faEnvelope,faEnvelopeOpen, faRegistered, faChevronDown,faUnlockAlt,
   faFileSignature, faUserCheck,  faMoneyCheckEdit, faTh, faFileImage, faBars, faSearch, faExpandWide, faHeadset,faBriefcase,
   faScrubber, faBadgePercent, faLandmark, faCalendarCheck,faMapMarkerAlt, faMobileAlt,faUnlock, faDumpster, faUsdSquare,
-  faKey, faBan, faUniversity, faBallotCheck, faTimes ) 
+  faKey, faBan, faUniversity, faBallotCheck, faTimes, faLongArrowLeft ) 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

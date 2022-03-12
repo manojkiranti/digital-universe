@@ -59,7 +59,7 @@ export default {
           id: 1,
           title: "New Registration",
           code: "on_bg",
-          link: "https://iserve.nicasiabank.com/banking-services",
+          link: "/digital-service/mobank/new-register",
           icon: "mobile-alt",
           active: true,
           color: "#f73563",
@@ -69,7 +69,7 @@ export default {
           id: 2,
           title: "Reset Pin",
           code: "tt_rtgs",
-          link: "https://iserve.nicasiabank.com/customer-authentication/request-service",
+          link: "/digital-service/mobank/reset-pin",
           icon: "key",
           active: true,
           color: "#6236FF",
@@ -80,7 +80,7 @@ export default {
           id: 3,
           title: "Unblock Mobile Banking",
           code: "on_ac",
-          link: "https://iserve.nicasiabank.com/customer-authentication/request-service",
+          link: "/digital-service/mobank/unblock",
           icon: "unlock",
           active: true,
           color: "#00dfa3",
@@ -90,7 +90,7 @@ export default {
           id: 4,
           title: "Block Mobile Banking",
           code: "on_demat",
-          link: "https://iserve.nicasiabank.com/customer-authentication/request-service",
+          link: "/digital-service/mobank/block",
           icon: "ban",
           active: true,
           color: "#FFB400",
@@ -122,7 +122,7 @@ export default {
     },
     applyNow(val) {
       
-      window.open(val);
+     this.$router.push(val);
     },
     viewDetail(index) {
       this.selectedProduct = this.products[index];

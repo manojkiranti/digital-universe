@@ -4,13 +4,13 @@
     <div class="home-body-main">
       <router-view></router-view>
     </div>
-    <FooterNav />
+    
   </div>
 </template>
 <script>
 import Header from "./components/header.vue";
 
-import FooterNav from "./components/footer-nav.vue";
+
 import Mobile from "../../../lib/mixins/Mobile";
 
 export default {
@@ -18,7 +18,7 @@ export default {
   mixins: [Mobile],
   components: {
     Header,
-    FooterNav,
+ 
   },
   data() {
     return {

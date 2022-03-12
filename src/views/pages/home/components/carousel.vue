@@ -8,7 +8,7 @@
               <div class="carousel-content">
                 <div class="slide-text">
                   <h6>Sarbashrestha Bachat Khata</h6>
-                  <a href="https://onlineaccount.nicasiabank.com/account/opening/basic/sarbashrestha-bachat-khata" target="_blank" class="btn btn-primary btn-sm">Apply Now</a>
+                  <router-link to="/online-account/sarbashrestha"  class="btn btn-primary btn-sm">Apply Now</router-link>
                 </div>
                 <div class="slide-img">
                   <img src="@/assets/images/banner-nic.png" alt="" />
@@ -18,7 +18,7 @@
               <div class="carousel-content bg-pink">
                 <div class="slide-text">
                   <h6>Sarbashrestha Nari Bachat Khata</h6>
-                  <a href="https://onlineaccount.nicasiabank.com/account/opening/start/sarbashrestha-nari-bachat-khata" target="_blank" class="btn btn-primary btn-sm">Apply Now</a>
+                  <router-link to="/online-account/nari-bachat"  class="btn btn-primary btn-sm">Apply Now</router-link>
                 </div>
                 <div class="slide-img">
                   <img src="@/assets/images/nari-banner.jpg" alt="" />
@@ -28,7 +28,7 @@
               <div class="carousel-content">
                 <div class="slide-text">
                   <h6>Sarbashrestha Jestha Nagarik Bachat Khata</h6>
-                  <a href="https://onlineaccount.nicasiabank.com/account/opening/start/sarbashrestha_jestha_nagarik_bachat_khata" target="_blank"  class="btn btn-primary btn-sm" >Apply Now</a>
+                  <router-link to="/online-account/jestha-bachat"  class="btn btn-primary btn-sm">Apply Now</router-link>
                 </div>
                 <div class="slide-img">
                   <img src="@/assets/images/jestha-banner.jpg" alt="" />
@@ -38,7 +38,7 @@
               <div class="carousel-content bg-dark-pink">
                 <div class="slide-text">
                   <h6>Sarbashrestha Muddati Khata</h6>
-                  <a href="https://onlineaccount.nicasiabank.com/account/opening/fixed-deposit/sarbashrestha-muddati-khata" class="btn btn-primary btn-sm" target="_blank" >Apply Now</a>
+                  <router-link to="/online-account/muddati"  class="btn btn-primary btn-sm">Apply Now</router-link>
                 </div>
                 <div class="slide-img">
                   <img src="@/assets/images/mudhati-banner.jpg" alt="" />
@@ -48,7 +48,7 @@
               <div class="carousel-content bg-dark-green">
                 <div class="slide-text">
                   <h6>Sarbashrestha Sahaj Bachat Khata</h6>
-                  <a href="https://www.nicasiabank.com/product/bank-accounts-deposits-in-nepal/sarbashrestha-sahaj-bachat-khata" class="btn btn-primary btn-sm" target="_blank" >Apply Now</a>
+                  <router-link to="/online-account/sajha-bachat"  class="btn btn-primary btn-sm">Apply Now</router-link>
                 </div>
                 <div class="slide-img">
                   <img src="@/assets/images/sajha-banner.jpg" alt="" />

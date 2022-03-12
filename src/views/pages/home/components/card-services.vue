@@ -59,7 +59,7 @@ export default {
           id: 1,
           title: "New Debit card",
           code: "on_bg",
-          link: "https://iserve.nicasiabank.com/new-card",
+          link: "/digital-service/card/new-card",
           icon: "credit-card",
           active: true,
           color: "rgb(247, 53, 208)",
@@ -69,7 +69,7 @@ export default {
           id: 2,
           title: "E-Commerce Registration",
           code: "tt_rtgs",
-          link: "https://iserve.nicasiabank.com/customer-authentication/request-service",
+          link: "/digital-service/card/e-com",
           icon: "dumpster",
           active: true,
           color: "#1ac0c6",
@@ -80,7 +80,7 @@ export default {
           id: 3,
           title: "Prepaid Dollar Card",
           code: "on_ac",
-          link: "https://iserve.nicasiabank.com/prepaid-dollar-card-request",
+          link: "/digital-service/card/dollar-card",
           icon: "usd-square",
           active: true,
           color: "#00dfa3",
@@ -90,7 +90,7 @@ export default {
           id: 4,
           title: "Debit Card Repin",
           code: "on_demat",
-          link: "https://iserve.nicasiabank.com/card-repin-request",
+          link: "/digital-service/card/repin",
           icon: "credit-card",
           active: true,
           color: "#FFB400",
@@ -122,7 +122,7 @@ export default {
     },
     applyNow(val) {
       
-      window.open(val);
+     this.$router.push(val);
     },
     viewDetail(index) {
       this.selectedProduct = this.products[index];

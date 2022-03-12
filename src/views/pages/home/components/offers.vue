@@ -3,7 +3,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="card-title mb-4">Offers</h4>
+          <div class="row">
+            <div class="col-6">
+              <h4 class="card-title mb-4">Offers</h4>
+            </div>
+            <div class="col-6 text-right">
+               <router-link class="aside-title" to="/offers">View All</router-link>
+            </div>
+          </div>
+          
             <VueSlickCarousel v-bind="settings">
                 <div class="offers-content" @click="routePage">
                     <div class="offer-card">
